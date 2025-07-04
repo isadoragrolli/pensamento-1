@@ -1,16 +1,16 @@
 body {
-    color: rgb(0, 0, 0);
-    background: black;
+    color: rgb(91, 203, 218);
+    background: rgb(255, 255, 255);
     margin: 0px;
 }
 
 header {
-   border-bottom: solid 2px rgb(10, 53, 109) 
+   border-bottom: solid 2px rgb(152, 182, 221) 
     padding: 20px;
 }
 
 chamada {
-    background-color: rgb(210, 253, 206);
+    background-color: rgb(73, 94, 122);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -32,7 +32,7 @@ p {
 img{
   height: 200px;
 }
-.categoria-videos{
+.categoria-videos {
   display: flex;
   overflow-x: auto;
   gap: 10px;
@@ -41,4 +41,14 @@ img{
 section{
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.categoria-videos img {
+ opacity: 0.5;
+ height: 200px;
+}
+
+categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px navy;
 }
